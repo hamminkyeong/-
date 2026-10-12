@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<link rel="icon" type="image/png" href="images/majoong-logo(1).jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마중산업(주)</title>
+<link rel="stylesheet" href="majoong_catalog_section.css">
+
+
+
+
+
+
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+<a class="brand" href="#home">
+  <span class="brand-mark">
+    <img src="images/majoong-logo(1).jpg" alt="마중산업 로고">
+  </span>
+  <span>
+    <strong>마중산업(주)</strong>
+    <small>MaJoong industry Co.,Ltd.</small>
+  </span>
+</a>
+
+<nav>
+  <a href="#home">회사소개</a>
+  <a href="#notice">게시판</a>
+  <a href="#materials">자재소개</a>
+  <a href="#catalog">카탈로그</a>
+  <a href="#records">납품실적</a>
+</nav>
+  </div>
+</header>
+
+<main>
+<!-- 고정 공지 -->
+<div class="fixed-notice">
+    <div class="fixed-notice-title">
+        <span class="notice-icon">📢</span>
+        <span class="notice-label">공지</span>
+        <span class="notice-text">마중산업 홈페이지가 새롭게 단장되었습니다!</span>
+    </div>
+
+    <button type="button" class="notice-toggle">
+        ˅
+    </button>
+
+<div class="fixed-notice-content">
+    <p>
+        더 편리하게 확인하실 수 있도록 홈페이지가 새롭게 단장되었습니다.
+    </p>
+    <p>
+        자재소개, 카탈로그, 납품실적 등 다양한 정보를 확인해보세요.
+    </p>
+
+   <a href="#notice" class="notice-detail-link">자세히 보기 →</a>
+</div>
+</div>
+<!-- 01. 첫 화면 -->
+<section class="intro" id="home">
+  <div class="intro-inner">
+    <div class="intro-copy">
+      <div class="intro-bubble">🐥 안녕하세요!</div>
+      <p class="eyebrow">MAJOONG INDUSTRY</p>
+      <h1>안녕하세요!<br><strong>마중산업</strong>입니다.</h1>
+      <p class="intro-text">
+        현장에 필요한 건설자재를 준비하고<br>
+        필요한 순간 함께 움직이는 마중산업입니다.
+      </p>
+    </div>
+
+<div class="intro-image-slot mascot-slider">
+
+  <img src="images/MJ_003_thanks.png" alt="마중이" class="mascot-slide active">
+  <img src="images/MJ_011_Fighting.png" alt="마중이" class="mascot-slide">
+  <img src="images/MJ_001_majungi_contact.png" alt="마중이" class="mascot-slide">
+  <img src="images/MJ_017_safety_check.png" alt="마중이" class="mascot-slide">
+  <img src="images/MJ_018_product.png" alt="마중이" class="mascot-slide">
+  <img src="images/MJ_025_truck_waving.png" alt="마중이" class="mascot-slide">
+
+
+</div>
+  </div>
+</section>
+
+<!-- 01-1. 마중산업 게시판 -->
+<section id="notice" class="notice-board-section">
+
+  <div class="notice-board-wrap">
+
+<!-- 왼쪽 버튼 -->
+<button class="board-nav board-prev" id="boardPrev" type="button">
+  ‹
+</button>
+<aside class="recent-news">
+
+  <div class="recent-mascot">
+    <img src="images/MJ_029_chin_resting.png" alt="마중이">
+  </div>
+
+  <div class="recent-news-title">
+    <span>📰</span>
+    <strong>최근 소식</strong>
+    <small>전체 8개</small>
+  </div>
+
+  <div class="recent-news-list" id="recentNewsList">
+    <button type="button">01　안녕하세요! 마중산업입니다.</button>
+    <button type="button">02　다양한 건설자재를 만나보세요.</button>
+    <button type="button">03　마중산업 홈페이지가 새롭게 단장되었습니다.</button>
+    <button type="button">04　마중산업의 새로운 소식을 확인해주세요.</button>
+    <button type="button">05　마중산업에서 취급하는 자재를 소개합니다.</button>
+    <button type="button">06　마중산업의 납품 서비스를 안내드립니다.</button>
+    <button type="button">07　현장에 필요한 자재부터 납품까지!</button>
+    <button type="button">08　마중산업과 함께 안전한 현장을 만들어보세요.</button>
+
+  </div>
+</aside>
+
+<div class="notice-board">
+
+  <div class="board-top">
+        <span class="board-label">MAJOONG NEWS</span>
+        <span class="board-pin">●</span>
+      </div>
+
+      <div class="board-content">
+
+        <div class="board-title">
+          <span>🐥</span>
+          <h2>마중산업 소식을 전해드려요!</h2>
+        </div>
+
+        <div class="notice-slider" id="noticeSlider">
+
+          <!-- 게시글은 아래에 계속 추가하시면 됩니다.
+               현재는 기존에 있던 3개의 게시글만 넣어두었습니다.
+               JS가 자동으로 7개씩 한 페이지에 보여줍니다. -->
+
+          <article class="notice-item">
+            <div class="notice-slide-head">
+              <span class="notice-badge">NOTICE</span>
+              <span class="notice-new">NEW</span>
+              <span class="notice-date">2026.10.06</span>
+            </div>
+            <h3>안녕하세요! 마중산업입니다.</h3>
+            <p>필요한 자재, 편하게 문의해주세요!</p>
+            <a class="notice-file" href="notice-01.pdf" download>📄 자료 PDF 다운로드 ↓</a>
+          </article>
+
+          <article class="notice-item">
+            <div class="notice-slide-head">
+              <span class="notice-badge">NEWS</span>
+              <span class="notice-new">NEW</span>
+              <span class="notice-date">2026.10.06</span>
+            </div>
+            <h3>다양한 건설자재를 만나보세요.</h3>
+            <p>마중산업에서 준비하고 있는 주요 자재를 소개합니다.</p>
+            <a class="notice-file" href="material-guide.pdf" download>📄 자재소개 PDF 다운로드 ↓</a>
+          </article>
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">NEWS</span>
+    <span class="notice-new">NEW</span>
+    <span class="notice-date">2026.10.07</span>
+  </div>
+  <h3>마중산업 홈페이지가 새롭게 단장되었습니다.</h3>
+  <p>보다 편리하게 마중산업의 자재와 소식을 확인하실 수 있습니다.</p>
+ <a class="notice-file" href="homepage-guide.pdf" download>
+  📄 홈페이지 안내 ↓
+</a>
+</article>
+
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">INFO</span>
+    <span class="notice-new">NEW</span>
+    <span class="notice-date">2026.10.08</span>
+  </div>
+
+  <h3>마중산업의 새로운 소식을 확인해주세요.</h3>
+
+  <p>마중산업의 자재와 서비스에 대한 다양한 소식을 전해드립니다.</p>
+
+<a class="notice-file" href="homepage-guide.pdf" download>
+  📄 홈페이지 안내 ↓
+</a>
+  </a>
+</article>
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">NEWS</span>
+    <span class="notice-new">NEW</span>
+    <span class="notice-date">2026.10.08</span>
+  </div>
+
+  <h3>마중산업에서 취급하는 자재를 소개합니다.</h3>
+
+  <p>현장에 필요한 다양한 건설자재를 편리하게 확인해보세요.</p>
+
+<a class="notice-file" href="homepage-guide.pdf" download>
+  📄 홈페이지 안내 ↓
+</a>
+</article>
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">NEWS</span>
+    <span class="notice-new">NEW</span>
+    <span class="notice-date">2026.10.08</span>
+  </div>
+
+  <h3>마중산업의 납품 서비스를 안내드립니다.</h3>
+
+  <p>필요한 자재를 확인하고 편리하게 문의하실 수 있습니다.</p>
+
+<a class="notice-file" href="homepage-guide.pdf" download>
+  📄 홈페이지 안내 ↓
+</a>
+</article>
+
+          <article class="notice-item">
+            <div class="notice-slide-head">
+              <span class="notice-badge">INFO</span>
+              <span class="notice-date">2026.10.06</span>
+            </div>
+            <h3>현장에 필요한 자재부터 납품까지!</h3>
+            <p>꼼꼼하게 함께하는 마중산업이 되겠습니다.</p>
+            <a class="notice-file" href="majoong_catalog.pdf" download>📖 카탈로그 PDF 다운로드 ↓</a>
+          </article>
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">INFO</span>
+    <span class="notice-date">2026.10.08</span>
+  </div>
+
+  <h3>마중산업과 함께 안전한 현장을 만들어보세요.</h3>
+
+  <p>필요한 건설자재를 빠르고 꼼꼼하게 준비해드리겠습니다.</p>
+
+ <a class="notice-file" href="homepage-guide.pdf" download>
+  📄 홈페이지 안내 ↓
+</a>
+</article>
+<article class="notice-item">
+  <div class="notice-slide-head">
+    <span class="notice-badge">NEWS</span>
+    <span class="notice-date">2026.10.08</span>
+  </div>
+
+  <h3>새로운 소식이 등록되었습니다.</h3>
+
+  <p>마중산업의 새로운 소식을 확인해보세요.</p>
+
+  <a class="notice-file" href="homepage-guide.pdf" download>
+    📄 홈페이지 안내 ↓
+  </a>
+</article>
+        </div>
+
+      <div class="board-bottom">
+        <span>MAJOONG INDUSTRY</span>
+        <span id="boardStatus">01–03 / 03</span>
+      </div>
+
+    </div>
+
+    <!-- 오른쪽 버튼 -->
+    <button class="board-nav board-next" id="boardNext" type="button">
+      ›
+    </button>
+
+  </div>
+
+
+  <!-- 아래 점 -->
+  <div class="board-dots" id="boardDots">
+    <!-- 게시글 수에 맞춰 JS가 자동으로 생성합니다. -->
+  </div>
+
+</section>
+
+<!-- 02. 회사소개 -->
+<section class="simple-section company-section" id="company">
+  <div class="section-head">
+    <p class="eyebrow">ABOUT MAJOONG</p>
+    <h2>마중산업을 소개할게요.</h2>
+    <p>현장과 가까운 건설자재 파트너, 마중산업입니다.</p>
+  </div>
+
+  <div class="two-card">
+   <div class="simple-card">
+  <div class="card-label">CEO MESSAGE</div>
+  <h3>대표님 인사말씀</h3>
+
+  <div class="ceo-message">
+    <p>
+      마중산업(주)는 건설현장에 필요한<br>
+      가설자재 및 철강자재를 공급하여,<br>
+      안전하고 효율적인 현장환경을 만들기 위해<br>
+      최선을 다하고 있습니다.<br>
+      앞으로도 고객만족을 최우선으로 생각하여, <br>
+      신뢰받는 기업으로 성장하겠습니다.
+    </p>
+
+    <p>
+      앞으로도 고객의 입장에서 생각하고<br>
+      믿을 수 있는 자재와 서비스를 제공하는<br>
+      든든한 파트너가 되겠습니다.
+    </p>
+
+    <p class="ceo-sign">
+      마중산업 대표이사 <strong>박영규</strong>
+    </p>
+  </div>
+</div>
+
+<div class="simple-card mascot-card">
+  <div class="card-label">MAJOONGI</div>
+
+  <h3>왜 마중이인가요? 🐥</h3>
+
+  <div class="mascot-image">
+    <img src="images/MJ_019_Working.png" alt="마중이">
+  </div>
+
+  <div class="mascot-text">
+    <p>
+      마중이는 마중산업을 대표하는 캐릭터입니다.<br>
+      보이지 않는 곳에서도 묵묵히 움직이는 오리처럼,<br>
+      마중산업의 모든 구성원이 각자의 자리에서 최선을 다하겠습니다.<br>
+    </p>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- 03. 자재소개 -->
+<section class="simple-section materials-section" id="materials">
+  <div class="section-head">
+    <p class="eyebrow">MATERIALS</p>
+    <h2>어떤 자재를 준비하나요?</h2>
+    <p>마중산업에서 만나볼 수 있는 주요 자재를 간단하게 소개합니다.</p>
+  </div>
+
+  <div class="material-grid">
+
+  <div class="material-card">
+    <div class="material-image-slot">
+      <img src="images/system-scaffolding-majoongi.png" alt="시스템 동바리·비계">
+    </div>
+    <strong>시스템 동바리·비계</strong>
+    <small>System Scaffolding</small>
+  </div>
+
+  <div class="material-card">
+    <div class="material-image-slot">
+      <img src="images/majoongi-scaffolding-support.png" alt="철가설재">
+    </div>
+    <strong>철가설재</strong>
+    <small>Steel Temporary Materials</small>
+  </div>
+
+  <div class="material-card">
+    <div class="material-image-slot">
+      <img src="images/steel-pipe-majoongi.png" alt="파이프">
+    </div>
+    <strong>파이프</strong>
+    <small>Steel Pipe</small>
+  </div>
+
+  <div class="material-card">
+    <div class="material-image-slot">
+      <img src="images/euro-form-majoongi.png" alt="유로폼">
+    </div>
+    <strong>유로폼</strong>
+    <small>Euro Form</small>
+  </div>
+
+</div>
+</section>
+
+<!-- 04. 카탈로그 -->
+<section class="catalog-section" id="catalog">
+  <div class="catalog-heading">
+    <div class="catalog-eyebrow">MAJOONG CATALOG</div>
+    <h1>마중산업 카탈로그 <span>📖</span></h1>
+    <p>책을 펼쳐보듯, 왼쪽과 오른쪽 두 페이지를 한눈에 확인해보세요.</p>
+  </div>
+
+  <div class="catalog-reader">
+    <button class="page-btn prev" id="prevBtn" aria-label="이전 두 페이지">‹</button>
+
+    <div class="book">
+      <div class="book-pages" id="bookPages">
+        <div class="page left">
+          <img id="pageLeft" class="catalog-img" alt="카탈로그 왼쪽 페이지">
+          <span class="page-no" id="pageNoLeft"></span>
+        </div>
+
+        <div class="page right">
+          <img id="pageRight" class="catalog-img" alt="카탈로그 오른쪽 페이지">
+          <span class="page-no" id="pageNoRight"></span>
+        </div>
+      </div>
+    </div>
+
+    <button class="page-btn next" id="nextBtn" aria-label="다음 두 페이지">›</button>
+    <button class="zoom-btn" id="zoomBtn" aria-label="카탈로그 크게 보기">⌕</button>
+  </div>
+
+  <div class="catalog-bottom">
+    <span id="pageStatus">1–2</span>
+    <a href="majoong_catalog.pdf" target="_blank">PDF로 보기 ↗</a>
+  </div>
+</section>
+
+<!-- 05. 납품실적 -->
+<section class="simple-section records-section" id="records">
+
+  <div class="section-head">
+    <p class="eyebrow">DELIVERY RECORD</p>
+    <h2>함께한 현장을 소개할게요.</h2>
+    <p>마중산업이 자재를 함께한 현장과 납품실적을 보여드려요.</p>
+  </div>
+
+  <div class="records-box">
+    <button class="record-nav record-prev" id="recordPrev" type="button" aria-label="이전 실적">‹</button>
+
+    <div class="records-main">
+      <div class="record-track-wrap">
+        <div class="record-track" id="recordTrack">
+
+        <!-- 01 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 01</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>서울도시철도 7호선 청라국제도시 연장 5공구</h3>
+            <p class="record-location">📍 인천 서구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>코오롱글로벌㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 02 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 02</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>청라선 1공구</h3>
+            <p class="record-location">📍 인천 서구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>금호건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 03 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 03</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>신안산선 본선전철 3-2공구 (B구간)</h3>
+            <p class="record-location">📍 서울 금천구 · 경기 시흥시</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜포스코건설</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 04 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 04</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>신안산선 본선전철 3-2공구 (C구간)</h3>
+            <p class="record-location">📍 경기 시흥시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜포스코건설</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 05 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 05</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>신안산선 본선전철 5-1공구</h3>
+            <p class="record-location">📍 경기 시흥시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>롯데건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 06 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 06</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>도봉산-옥정 광역철도 2공구</h3>
+            <p class="record-location">📍 경기 의정부시</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜한화건설</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 07 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 07</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>동북선 도시철도 2공구</h3>
+            <p class="record-location">📍 서울 동북권</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜호반산업</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 08 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 08</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>고속국도 제292호선 오창-오창IC</h3>
+            <p class="record-location">📍 충북 청주시</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜한진중공업</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>㈜부강티엔씨</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 09 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 09</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>충주댐 치수능력증대</h3>
+            <p class="record-location">📍 충북 충주시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>디엘이앤씨㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>다온종합건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 10 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 10</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>월곶-판교 복선전철 제6공구</h3>
+            <p class="record-location">📍 경기 안양시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>현대건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 11 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 11</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>신분당선 광교-호매실 3공구</h3>
+            <p class="record-location">📍 경기 수원시 권선구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>계룡건설산업㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 12 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 12</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>월곶-판교 복선전철 제9공구</h3>
+            <p class="record-location">📍 경기 의왕시 · 안양시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>금호건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 13 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 13</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>춘천속초 철도노반 7공구</h3>
+            <p class="record-location">📍 강원 인제 · 속초 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜한화</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 14 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 14</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>인덕원-동탄 9공구</h3>
+            <p class="record-location">📍 경기 수원시 영통구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜한화</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 15 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 15</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>평택-오송 2복선화 5공구</h3>
+            <p class="record-location">📍 세종 전동면 · 충북 청주시 오송읍</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>쌍용건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 16 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 16</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>인덕원-동탄 12공구</h3>
+            <p class="record-location">📍 경기 화성 · 용인 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>에이치디씨현대산업개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 17 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 17</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>광명-서울 고속도로 3공구</h3>
+            <p class="record-location">📍 경기 광명 · 서울 구간</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>에스케이에코플랜트㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 18 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 18</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>강릉-제진 단선전철 4공구</h3>
+            <p class="record-location">📍 강원 강릉 · 양양 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>에스케이에코플랜트㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 19 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 19</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>신안산선 본선전철 3-3공구 (A구간)</h3>
+            <p class="record-location">📍 경기 시흥 · 안산 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜포스코건설</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>도양기업㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 20 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 20</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>농소-강동 도로개설공사 3공구</h3>
+            <p class="record-location">📍 울산 북구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>삼환기업㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 21 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 21</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>대장-홍대 광역철도 민간투자사업 1공구</h3>
+            <p class="record-location">📍 서울 강서구 · 경기 부천시 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>현대건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 22 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 22</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>남양주왕숙 국도 47호선 이설 중 토공구조물공사 4공구</h3>
+            <p class="record-location">📍 경기 남양주시</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>현대건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 23 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 23</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>수도권 광역급행철도 B노선 1공구</h3>
+            <p class="record-location">📍 서울 용산구 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>현대건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 24 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 24</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>인덕원동탄 9공구</h3>
+            <p class="record-location">📍 경기 수원시 영통구</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>㈜한화건설</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>도양기업㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- 25 -->
+        <article class="record-item">
+          <div class="record-content">
+            <span class="project-number">PROJECT 25</span>
+            <span class="record-category bridge">토목/교량</span>
+
+            <h3>GTX-B 1공구</h3>
+            <p class="record-location">📍 서울 용산구 일원</p>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>원도급사</strong>
+              <p>현대건설㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>시공·협력사</strong>
+              <p>우원개발㈜</p>
+            </div>
+
+            <div class="record-divider"></div>
+
+            <div class="record-info">
+              <strong>납품 품목</strong>
+              <p class="material-list">
+                시스템 비계 · 파이프 · 멍에재<br>
+                하부자키 · 부속자재
+              </p>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+
+      <div class="record-pagination">
+        <span id="recordStatus">01–04 / 25</span>
+        <div class="record-dots" id="recordDots">
+          <button class="active" type="button" aria-label="실적 페이지 1"></button><button type="button" aria-label="실적 페이지 2"></button><button type="button" aria-label="실적 페이지 3"></button><button type="button" aria-label="실적 페이지 4"></button><button type="button" aria-label="실적 페이지 5"></button><button type="button" aria-label="실적 페이지 6"></button><button type="button" aria-label="실적 페이지 7"></button>
+        </div>
+      </div>
+    </div>
+
+    <button class="record-nav record-next" id="recordNext" type="button" aria-label="다음 실적">›</button>
+
+    <aside class="record-side">
+      <span class="card-label">OUR PROJECTS</span>
+      <h3>다양한 현장과<br><strong>함께했습니다.</strong></h3>
+      <p>대표 납품실적과 현장 정보,<br>원도급사 및 시공·협력사를 확인해보세요.</p>
+
+      <div class="record-summary">
+        <div><span>01</span><p>주거시설 · 아파트 · 오피스텔</p></div>
+        <div><span>02</span><p>공공시설 · 관공서 · 교육시설</p></div>
+        <div><span>03</span><p>산업시설 · 공장 · 물류센터</p></div>
+        <div><span>04</span><p>토목/교량 · 도로 · 철도</p></div>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+
+    <!-- 왼쪽 : 로고 -->
+<div class="footer-logo">
+  <a href="#home">
+    <img src="images/majoong-logo.png" alt="마중산업">
+  </a>
+
+  <div class="footer-logo-name">
+    <strong>마중산업(주)</strong>
+    <span>MAJOONG INDUSTRY</span>
+  </div>
+</div>
+
+
+    <!-- 오른쪽 : 메뉴 + 회사정보 -->
+    <div class="footer-content">
+
+      <!-- 메뉴 -->
+      <nav class="footer-nav">
+
+  <a href="#company">회사소개</a>
+
+  <i></i>
+
+  <a href="#notice">게시판</a>
+
+  <i></i>
+
+  <a href="#materials">자재소개</a>
+
+  <i></i>
+
+  <a href="#catalog">카탈로그</a>
+
+  <i></i>
+
+  <a href="#records">납품실적</a>
+
+</nav>
+
+
+      <!-- 본사 / 자재센터 -->
+      <div class="footer-locations">
+
+        <!-- 본사 -->
+        <div class="footer-location">
+          <h4>본사</h4>
+
+          <p>
+            <span>상호 : 마중산업(주)</span>
+            <i></i>
+            <span>대표 : 박영규</span>
+            <i></i>
+            <span>전화번호 : 010-5023-2158</span>
+  <i></i>
+            <span>사업자등록번호 : 816-88-02833</span>
+          </p>
+
+          <p>
+            <span>TEL : 031-699-6002</span>
+            <i></i>
+            <span>FAX : 031-699-6003</span>
+          
+
+          <p>
+            주소 : 경기도 하남시 미사강변한강로 135, 스카이폴리스 나동 650호</p>
+        </div>
+
+
+        <!-- 자재센터 -->
+        <div class="footer-location">
+          <h4>자재센터</h4>
+
+          <p>
+            <span>TEL : 031-8029-7709</span>
+          </p>
+<p>
+            <span>FAX : 031-8029-7710</span>
+          </p>
+
+          <p>
+            주소 : 경기도 안성시 원곡면 청원로 1785-31
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- 저작권 -->
+      <div class="footer-copy">
+<p>COPYRIGHT © 2026 MAJOONG INDUSTRY. ALL RIGHTS RESERVED.</p>
+        <p>
+          마중산업 홈페이지 내의 모든 문구 및 이미지에 대한
+          무단 도용 및 복제 사용을 금지합니다.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- 오른쪽 위 문의 버튼 -->
+    <button class="footer-chat" type="button" aria-label="문의하기">
+      ●
+    </button>
+
+  </div>
+</footer>
+
+<!-- 카탈로그 확대 -->
+<div class="zoom-modal" id="zoomModal" aria-hidden="true">
+  <div class="zoom-bg" id="zoomBg"></div>
+  <div class="zoom-window">
+    <button class="close-btn" id="closeBtn" aria-label="닫기">×</button>
+    <div class="zoom-book">
+      <div class="zoom-page"><img id="zoomLeft" class="catalog-img" alt="확대된 카탈로그 왼쪽 페이지"></div>
+      <div class="zoom-page"><img id="zoomRight" class="catalog-img" alt="확대된 카탈로그 오른쪽 페이지"></div>
+    </div>
+    <div class="zoom-controls">
+      <button id="zoomPrev">‹</button>
+      <span id="zoomStatus">1–2</span>
+      <button id="zoomNext">›</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* 납품실적 25개 / 한 화면 4개 페이지 이동 */
+document.addEventListener("DOMContentLoaded", function(){
+  const track = document.getElementById("recordTrack");
+  const items = Array.from(document.querySelectorAll("#recordTrack .record-item"));
+  const prev = document.getElementById("recordPrev");
+  const next = document.getElementById("recordNext");
+  const status = document.getElementById("recordStatus");
+  const dots = Array.from(document.querySelectorAll("#recordDots button"));
+  const perPage = 4;
+  const totalPages = Math.ceil(items.length / perPage);
+  let page = 0;
+
+  function showPage(index){
+    page = Math.max(0, Math.min(index, totalPages - 1));
+
+    /* 모든 카드를 다시 표시하고, 트랙 자체를 페이지 단위로 이동 */
+    items.forEach(item => {
+      item.style.display = "block";
+    });
+
+    const shift = page * 100;
+    const gapOffset = page * 14;
+    track.style.transform = `translateX(calc(-${shift}% - ${gapOffset}px))`;
+
+    const start = page * perPage + 1;
+    const end = Math.min((page + 1) * perPage, items.length);
+
+    if(status){
+      status.textContent =
+        String(start).padStart(2,"0") + "–" +
+        String(end).padStart(2,"0") + " / " +
+        String(items.length).padStart(2,"0");
+    }
+
+    dots.forEach((dot, i) => dot.classList.toggle("active", i === page));
+    if(prev) prev.disabled = page === 0;
+    if(next) next.disabled = page === totalPages - 1;
+  }
+
+  if(prev) prev.addEventListener("click", () => showPage(page - 1));
+  if(next) next.addEventListener("click", () => showPage(page + 1));
+  dots.forEach((dot, i) => dot.addEventListener("click", () => showPage(i)));
+
+  showPage(0);
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const buttons = document.querySelectorAll(".recent-news-list button");
+  const items = document.querySelectorAll("#noticeSlider .notice-item");
+  const prev = document.getElementById("boardPrev");
+  const next = document.getElementById("boardNext");
+  const status = document.getElementById("boardStatus");
+  const dots = document.getElementById("boardDots");
+
+  const perPage = 7;
+const totalPages = Math.ceil(items.length / perPage);
+
+
+  let currentPage = 0;
+
+
+  function showBoard(page){
+
+    currentPage = Math.max(
+      0,
+      Math.min(page, totalPages - 1)
+    );
+
+    const start = currentPage * perPage;
+    const end = Math.min(
+      start + perPage,
+      items.length
+    );
+
+
+    items.forEach(function(item, index){
+
+      if(index >= start && index < end){
+
+        item.style.setProperty(
+          "display",
+          "grid",
+          "important"
+        );
+
+      }else{
+
+        item.style.setProperty(
+          "display",
+          "none",
+          "important"
+        );
+
+      }
+
+    });
+
+
+    if(status){
+
+      status.textContent =
+        String(start + 1).padStart(2,"0")
+        + "–" +
+        String(end).padStart(2,"0")
+        + " / " +
+        String(items.length).padStart(2,"0");
+
+    }
+
+
+    if(prev){
+      prev.disabled = currentPage === 0;
+    }
+
+    if(next){
+      next.disabled =
+        currentPage === totalPages - 1;
+    }
+
+
+    if(dots){
+
+      dots.innerHTML = "";
+
+      for(let i = 0; i < totalPages; i++){
+
+        const dot = document.createElement("button");
+
+        dot.type = "button";
+
+        dot.className =
+          i === currentPage ? "active" : "";
+
+        dot.addEventListener(
+          "click",
+          function(){
+            showBoard(i);
+          }
+        );
+
+        dots.appendChild(dot);
+
+      }
+
+    }
+
+  }
+
+
+  /* 이전 버튼 */
+
+  if(prev){
+
+    prev.addEventListener(
+      "click",
+      function(){
+        showBoard(currentPage - 1);
+      }
+    );
+
+  }
+
+
+  /* 다음 버튼 */
+
+  if(next){
+
+    next.addEventListener(
+      "click",
+      function(){
+        showBoard(currentPage + 1);
+      }
+    );
+
+  }
+
+
+  /* 최근 소식 01~08 */
+
+  buttons.forEach(function(button, index){
+
+    button.addEventListener(
+      "click",
+      function(){
+
+        const page =
+          Math.floor(index / perPage);
+
+        showBoard(page);
+
+        document
+          .getElementById("notice")
+          .scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+
+      }
+    );
+
+  });
+
+
+  /* 처음에는 01~07 */
+
+  showBoard(0);
+
+});
+</script>
+<script src="majoong_catalog_section.js"></script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const buttons = document.querySelectorAll(
+    ".recent-news-list button"
+  );
+
+  const nextButton = document.getElementById("boardNext");
+  const prevButton = document.getElementById("boardPrev");
+  const notice = document.getElementById("notice");
+
+  let page = 0;
+
+  buttons.forEach(function(button, index){
+
+    button.onclick = function(){
+
+      const targetPage = Math.floor(index / 7);
+
+      if(targetPage > page){
+
+        for(let i = page; i < targetPage; i++){
+          nextButton.click();
+        }
+
+      }
+
+      if(targetPage < page){
+
+        for(let i = page; i > targetPage; i--){
+          prevButton.click();
+        }
+
+      }
+
+      page = targetPage;
+
+      notice.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+    };
+
+  });
+
+});
+</script>
+
+
+</body>
+</html>
