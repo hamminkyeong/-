@@ -2323,3 +2323,523 @@ overflow:visible;
 .notice-detail-link:hover {
   text-decoration: underline;
 }
+
+/* =========================================================
+   모바일 반응형 보완 (기존 PC 디자인은 유지)
+   ========================================================= */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+img, canvas, video {
+  max-width: 100%;
+}
+.header-inner,
+.intro-inner,
+.simple-section,
+.catalog-section,
+.notice-board-section,
+.footer {
+  min-width: 0;
+}
+nav a {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.intro-copy,
+.intro-inner > *,
+.section-head,
+.simple-card,
+.material-card,
+.catalog-heading,
+.records-box,
+.footer-content {
+  min-width: 0;
+}
+.intro h1,
+.section-head h2,
+.catalog-heading h1 {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+.notice-board-section .notice-board-wrap,
+.notice-board-section .notice-board,
+.notice-board-section .recent-news {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .header-inner {
+    width: 94%;
+    height: auto;
+    min-height: 70px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 18px;
+  }
+  .brand {
+    flex: 0 0 auto;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 18px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .intro-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+  }
+  .intro h1 {
+    font-size: clamp(34px, 5.2vw, 52px);
+    letter-spacing: -1.5px;
+  }
+  .intro-text {
+    font-size: 15px;
+  }
+  .simple-section {
+    padding: 70px 0;
+  }
+  .section-head h2 {
+    font-size: clamp(27px, 4vw, 36px);
+    letter-spacing: -1px;
+  }
+  .two-card {
+    gap: 16px;
+  }
+  .simple-card {
+    padding: 24px;
+  }
+  .simple-card h3 {
+    font-size: 24px;
+  }
+  .material-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .catalog-section {
+    padding: 70px 0 80px;
+  }
+  .catalog-heading {
+    padding: 0 18px;
+  }
+  .catalog-heading h1 {
+    font-size: clamp(27px, 4vw, 36px);
+    letter-spacing: -1px;
+  }
+  .catalog-reader {
+    width: calc(100% - 36px);
+  }
+  .book {
+    padding: 10px;
+    border-radius: 16px;
+  }
+  .page-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 30px;
+  }
+  .page-btn.prev { left: -14px; }
+  .page-btn.next { right: -14px; }
+  .zoom-btn {
+    right: 12px;
+    top: -12px;
+    width: 40px;
+    height: 40px;
+  }
+  .records-box {
+    padding: 20px;
+    gap: 18px;
+  }
+  .footer-inner {
+    width: 92%;
+    grid-template-columns: 130px minmax(0, 1fr);
+    column-gap: 22px;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-nav a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .site-header {
+    position: sticky;
+  }
+  .header-inner {
+    width: 94%;
+    padding: 9px 0 11px;
+    gap: 8px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand-mark,
+  .brand-mark img {
+    width: 48px;
+    height: 42px;
+  }
+  .brand strong {
+    font-size: 15px;
+  }
+  .brand small {
+    font-size: 8px;
+  }
+  nav {
+    gap: 7px 13px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  nav a {
+    display: inline-block;
+    white-space: nowrap;
+    word-break: keep-all;
+  }
+
+  .fixed-notice {
+    width: 94%;
+    margin-bottom: 12px;
+  }
+  .fixed-notice-title {
+    min-height: 48px;
+    gap: 6px;
+    padding: 8px 36px 8px 10px;
+    flex-wrap: wrap;
+  }
+  .notice-icon { font-size: 14px; }
+  .notice-label { font-size: 11px; }
+  .notice-text {
+    flex: 1 1 100%;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .notice-toggle {
+    right: 10px;
+  }
+
+  .intro {
+    min-height: auto;
+    padding: 34px 0 28px;
+    overflow: hidden;
+  }
+  .intro-inner {
+    width: 90%;
+    min-height: 0;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    text-align: center;
+  }
+  .intro-copy {
+    padding: 0;
+    order: 1;
+  }
+  .intro-bubble {
+    margin: 0 auto 16px;
+    padding: 8px 13px;
+    font-size: 11px;
+  }
+  .intro .eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+  .intro h1 {
+    font-size: clamp(32px, 9vw, 43px);
+    line-height: 1.25;
+    letter-spacing: -1.5px;
+  }
+  .intro-text {
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.8;
+    word-break: keep-all;
+  }
+  .intro-image-slot {
+    order: 2;
+    width: min(100%, 300px);
+    height: 260px;
+  }
+
+  .notice-board-section {
+    padding: 42px 0 60px;
+  }
+  .notice-board-section .notice-board-wrap {
+    width: 94% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 16px !important;
+  }
+  .notice-board-section .recent-news {
+    order: 2;
+    width: 100%;
+    margin: 0;
+  }
+  .notice-board-section .recent-mascot {
+    display: none;
+  }
+  .notice-board-section .notice-board {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+  }
+  .notice-board-section .board-nav {
+    top: 22px !important;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    font-size: 24px !important;
+  }
+  .notice-board-section .board-prev { left: 6px !important; }
+  .notice-board-section .board-next { right: 6px !important; }
+  .notice-board-section .board-content {
+    padding: 18px 10px !important;
+  }
+  .notice-board-section .board-title {
+    gap: 6px;
+  }
+  .notice-board-section .board-title h2 {
+    font-size: 17px !important;
+    line-height: 1.4;
+    word-break: keep-all;
+  }
+  .notice-board-section .notice-item {
+    padding: 12px 10px !important;
+  }
+  .notice-board-section .notice-item h3 {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    overflow-wrap: anywhere;
+  }
+  .notice-board-section .notice-item p {
+    font-size: 11px !important;
+    overflow-wrap: anywhere;
+  }
+  .notice-board-section .notice-item .notice-file {
+    max-width: 100%;
+    white-space: normal !important;
+    font-size: 10px !important;
+    padding: 8px !important;
+  }
+  .notice-board-section #boardDots {
+    position: static !important;
+    transform: none !important;
+    margin: 14px auto 0 !important;
+  }
+  .recent-news-list {
+    max-height: 260px;
+  }
+  .recent-news-list button {
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .simple-section {
+    padding: 52px 0;
+  }
+  .section-head {
+    width: 90%;
+    margin-bottom: 26px;
+  }
+  .section-head h2 {
+    font-size: 27px;
+    line-height: 1.35;
+    letter-spacing: -1px;
+  }
+  .section-head p:last-child {
+    font-size: 12px;
+    word-break: keep-all;
+  }
+  .two-card {
+    width: 90%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .simple-card {
+    min-height: 0;
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+  .simple-card h3 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  .simple-card p,
+  .mascot-text p {
+    font-size: 13px;
+    line-height: 1.8;
+    word-break: keep-all;
+  }
+  .mascot-image {
+    height: 210px;
+  }
+  .material-grid {
+    width: 90%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .material-card {
+    padding: 14px;
+  }
+  .material-image-slot {
+    height: 190px;
+  }
+  .material-card strong {
+    font-size: 16px;
+  }
+  .material-card small {
+    font-size: 11px;
+  }
+
+  .catalog-section {
+    padding: 52px 0 60px;
+  }
+  .catalog-heading {
+    margin-bottom: 25px;
+    padding: 0 5%;
+  }
+  .catalog-heading h1 {
+    font-size: 27px;
+    line-height: 1.35;
+  }
+  .catalog-heading p {
+    font-size: 11px;
+    line-height: 1.7;
+    word-break: keep-all;
+  }
+  .catalog-reader {
+    width: calc(100% - 42px);
+  }
+  .book {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .book-pages {
+    grid-template-columns: minmax(0, 1fr);
+    aspect-ratio: 0.72 / 1;
+  }
+  .book-pages .page.left {
+    display: flex;
+  }
+  .book-pages .page.right {
+    display: none;
+  }
+  .book-pages:after {
+    display: none;
+  }
+  .page-no {
+    bottom: 4px;
+    font-size: 9px;
+  }
+  .page-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 25px;
+  }
+  .page-btn.prev { left: -17px; }
+  .page-btn.next { right: -17px; }
+  .zoom-btn {
+    right: 5px;
+    top: -13px;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+  .catalog-bottom {
+    width: 90%;
+    font-size: 10px;
+  }
+
+  .records-box {
+    width: 92%;
+    padding: 14px;
+    grid-template-columns: minmax(0, 1fr);
+    border-radius: 18px;
+  }
+  .record-item {
+    flex-basis: 100% !important;
+  }
+  .record-content {
+    min-height: 0 !important;
+    padding: 18px 16px;
+  }
+  .record-content h3 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+  .record-side h3 {
+    font-size: 26px;
+  }
+
+  .footer {
+    padding: 38px 0 28px;
+  }
+  .footer-inner {
+    width: 90%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .footer-logo {
+    padding-top: 0;
+    text-align: left;
+  }
+  .footer-logo img {
+    width: 75px;
+  }
+  .footer-logo-name {
+    text-align: center;
+    width: 75px;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-nav {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .footer-nav a {
+    font-size: 13px;
+  }
+  .footer-nav i {
+    height: 12px;
+  }
+  .footer-locations {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .footer-location:first-child {
+    padding-right: 0;
+    border-right: 0;
+  }
+  .footer-location:last-child {
+    padding-left: 0;
+  }
+  .footer-location h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  nav {
+    gap: 6px 9px;
+    font-size: 11px;
+  }
+  .intro h1 {
+    font-size: 30px;
+  }
+  .intro-image-slot {
+    height: 225px;
+  }
+  .catalog-heading h1 {
+    font-size: 24px;
+  }
+}
