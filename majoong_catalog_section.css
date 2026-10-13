@@ -2843,3 +2843,29 @@ nav a {
     font-size: 24px;
   }
 }
+
+/* 모바일에서 마중이 크기 조정 */
+@media (max-width: 700px) {
+  .intro-image-slot.mascot-slider {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 320px !important;
+    max-height: 320px !important;
+    margin: 10px auto 0 !important;
+    overflow: hidden !important;
+  }
+
+  .intro-image-slot.mascot-slider .mascot-slide {
+    width: 290px !important;
+    height: 310px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+
+  .intro-inner {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+}
